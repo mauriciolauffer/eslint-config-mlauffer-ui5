@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-mlauffer-ui5",
+  "version": "0.0.1",
+  "description": "ESLint shareable config for UI5",
+  "private": false,
+  "author": "Mauricio Lauffer",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**"
+  ],
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "javascript"
+  ],
+  "dependencies": {
+    "@types/node": "^13.7.6",
+    "@types/eslint": "^6.1.8",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5.git/issues"
+  },
+  "devDependencies": {
+    "eslint-config-mlauffer-nodejs": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git"
+  }
+}
