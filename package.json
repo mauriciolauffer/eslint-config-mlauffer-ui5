@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mlauffer-ui5",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint shareable config for UI5",
   "private": false,
   "author": "Mauricio Lauffer",
