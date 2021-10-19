@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.2.0...v0.3.0) (2021-10-19)
+
+
+### Features
+
+* Drop func-names ([5538230](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/5538230d105556b72cdfdd4636b9d5dddb234aaf))
+
 ## [0.2.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.1.0...v0.2.0) (2021-10-18)
 
 
