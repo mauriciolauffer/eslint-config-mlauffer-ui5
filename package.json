@@ -18,7 +18,7 @@
     "javascript"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.2.0"
+    "eslint-config-mlauffer-nodejs": "^1.2.1"
   },
   "repository": {
     "type": "git",
