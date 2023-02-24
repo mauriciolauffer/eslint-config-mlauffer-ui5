@@ -4,6 +4,7 @@
   "description": "ESLint shareable config for UI5",
   "private": false,
   "author": "Mauricio Lauffer",
+  "license": "MIT",
   "main": "lib/index.js",
   "files": [
     "lib/**"
@@ -15,10 +16,13 @@
   "keywords": [
     "eslint",
     "config",
-    "javascript"
+    "javascript",
+    "ui5",
+    "openui5",
+    "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.2.2"
+    "eslint-config-mlauffer-nodejs": "^1.4.0"
   },
   "repository": {
     "type": "git",
