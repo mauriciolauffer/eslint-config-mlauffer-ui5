@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.3.2...v0.3.3) (2023-02-24)
+
+
+### Bug Fixes
+
+* Bump deps ([e8a2052](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/e8a20523d6dd1affb1502703777855b7381094ab))
+
 ### [0.3.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.3.1...v0.3.2) (2022-04-22)
 
 
