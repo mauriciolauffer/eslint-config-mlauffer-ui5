@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "alwaysStrict": true,
+    "noEmit": true,
+    "checkJs": true,
+    "allowJs": true,
+    "types": []
+  }
+}
