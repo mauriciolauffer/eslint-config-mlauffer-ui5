@@ -22,7 +22,7 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.4.0"
+    "eslint-config-mlauffer-nodejs": "^1.4.1"
   },
   "repository": {
     "type": "git",
