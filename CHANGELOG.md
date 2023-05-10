@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.3.3...v0.4.0) (2023-05-10)
+
+
+### Features
+
+* Add qunit env ([5e2e127](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/5e2e127d8824f26a0edcbafe06049094fee8fb02))
+
 ## [0.3.3](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.3.2...v0.3.3) (2023-02-24)
 
 
