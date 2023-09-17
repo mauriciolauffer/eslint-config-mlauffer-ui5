@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.4.0...v0.5.0) (2023-09-17)
+
+
+### Features
+
+* Disallow unsanitized code ([8975f97](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/8975f97686a36a855192122d4de823d78dc4b564))
+
 ## [0.4.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.3.3...v0.4.0) (2023-05-10)
 
 
