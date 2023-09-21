@@ -10,7 +10,8 @@
     "lib/**"
   ],
   "scripts": {
-    "lint": "eslint lib",
+    "lint": "eslint lib --cache",
+    "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "test": "npm run lint"
   },
   "keywords": [
@@ -22,7 +23,7 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.4.2",
+    "eslint-config-mlauffer-nodejs": "^1.4.4",
     "eslint-plugin-no-unsanitized": "^4.0.2"
   },
   "engines": {
