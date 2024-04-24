@@ -5,6 +5,7 @@
   "private": false,
   "author": "Mauricio Lauffer",
   "license": "MIT",
+  "type": "module",
   "main": "lib/index.js",
   "files": [
     "lib/**"
@@ -12,6 +13,7 @@
   "scripts": {
     "lint": "eslint lib --cache",
     "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "format": "prettier . --write --cache && npm run lint -- --fix",
     "test": "npm run lint"
   },
   "keywords": [
@@ -23,11 +25,19 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.4.6",
+    "eslint-config-mlauffer-nodejs": "^2.0.0",
     "eslint-plugin-no-unsanitized": "^4.0.2"
   },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
