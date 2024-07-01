@@ -23,7 +23,7 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^1.4.6",
+    "eslint-config-mlauffer-nodejs": "^2.0.3",
     "eslint-plugin-no-unsanitized": "^4.0.2"
   },
   "engines": {
