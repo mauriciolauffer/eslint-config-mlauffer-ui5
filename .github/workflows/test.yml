@@ -2,7 +2,7 @@ name: test
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
 
 permissions: read-all
@@ -10,18 +10,21 @@ permissions: read-all
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
     permissions:
       security-events: write
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 20
-        cache: npm
-    - run: npm install -g eslint --ignore-scripts
-    - run: npm ci --ignore-scripts
-    - run: npm test
-    - run: npm run lint:ci
-    - uses: github/codeql-action/upload-sarif@v2
-      with:
-        sarif_file: eslint.sarif
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: npm run lint:ci
+      - uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: eslint.sarif

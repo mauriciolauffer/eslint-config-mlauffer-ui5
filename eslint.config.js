@@ -1,2 +1,2 @@
-import config from './lib/index.js';
+import config from "eslint-config-mlauffer-nodejs";
 export default config;

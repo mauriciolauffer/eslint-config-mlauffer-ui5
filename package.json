@@ -8,13 +8,13 @@
   "type": "module",
   "main": "lib/index.js",
   "files": [
-    "lib/**"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint lib --cache",
     "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "format": "prettier . --write --cache && npm run lint -- --fix",
-    "test": "npm run lint"
+    "test": "vitest run"
   },
   "keywords": [
     "eslint",
@@ -25,13 +25,16 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^2.0.0",
+    "eslint-config-mlauffer-nodejs": "^2.0.4",
     "eslint-plugin-no-unsanitized": "^4.0.2"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/config-inspector": "^0.5.1",
     "@types/eslint": "^8.56.10",
-    "@types/node": "^20.12.7",
-    "prettier": "^3.2.5"
+    "@types/node": "^20.14.9",
+    "prettier": "^3.3.2",
+    "vitest": "^1.6.0"
   },
   "peerDependencies": {
     "eslint": ">=8"
