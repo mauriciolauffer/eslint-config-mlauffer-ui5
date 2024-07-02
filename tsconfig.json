@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ESNext",
-    "alwaysStrict": true,
     "noEmit": true,
     "checkJs": true,
     "allowJs": true,
-    "types": []
-  }
+    "module": "ESNext",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "types": ["node", "eslint"]
+  },
+  "include": ["lib", "test"]
 }
