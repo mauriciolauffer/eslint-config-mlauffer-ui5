@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.5.2...v1.0.0) (2024-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* Flat config ([#24](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/issues/24))
+
+### Features
+
+* Flat config ([#24](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/issues/24)) ([484b5f8](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/484b5f8486305985cfd4ab58f11811bce1c1f129))
+
 ## [0.5.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v0.5.1...v0.5.2) (2023-12-04)
 
 
