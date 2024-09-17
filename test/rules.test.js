@@ -6,7 +6,7 @@ const tester = new RuleTester();
 
 describe("Execute rules", () => {
   it("should execute rule no-unsanitized/DOM/method", () => {
-    const configDOM = config[config.length - 2];
+    const configDOM = config[config.length - 2][0];
     const rule = configDOM.plugins["no-unsanitized"].rules.method;
     const valid = [
       { code: "n.insertAdjacentHTML('afterend', 'meh');" },
@@ -31,7 +31,7 @@ describe("Execute rules", () => {
   });
 
   it("should execute rule no-unsanitized/DOM/property", () => {
-    const configDOM = config[config.length - 2];
+    const configDOM = config[config.length - 2][0];
     const rule = configDOM.plugins["no-unsanitized"].rules.property;
     const valid = [
       { code: "a.innerHTML = 'test';" },

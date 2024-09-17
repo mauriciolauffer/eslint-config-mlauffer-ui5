@@ -25,17 +25,16 @@
     "sapui5"
   ],
   "dependencies": {
-    "@eslint/compat": "^1.1.0",
-    "@eslint/js": "^9.6.0",
-    "eslint-config-mlauffer-nodejs": "^2.0.4",
-    "eslint-plugin-no-unsanitized": "^4.0.2"
+    "@eslint/js": "^9.10.0",
+    "eslint-config-mlauffer-nodejs": "^2.0.5",
+    "eslint-plugin-no-unsanitized": "^4.1.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^0.5.1",
-    "@types/eslint": "^8.56.10",
-    "@types/node": "^20.14.9",
-    "prettier": "^3.3.2",
-    "vitest": "^1.6.0"
+    "@eslint/config-inspector": "^0.5.4",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.5.5",
+    "prettier": "^3.3.3",
+    "vitest": "^2.1.1"
   },
   "engines": {
     "node": ">=18"
@@ -45,6 +44,7 @@
     "x64"
   ],
   "os": [
+    "darwin",
     "linux",
     "win32"
   ],
