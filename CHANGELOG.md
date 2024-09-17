@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v1.0.2...v1.0.3) (2024-09-17)
+
+
+### Bug Fixes
+
+* Remove compat layer ([90c187a](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/90c187a2f9ca90557ec4978c5f95080b2ac70dc2))
+
 ## [1.0.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v1.0.1...v1.0.2) (2024-07-03)
 
 
