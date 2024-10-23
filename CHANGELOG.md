@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v1.0.3...v2.0.0) (2024-10-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* SonarJS + PNPM ([#32](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/issues/32))
+
+### Features
+
+* SonarJS + PNPM ([#32](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/issues/32)) ([b873941](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/commit/b873941bb038d11d39d449cdf81050e22b9fe7e4))
+
 ## [1.0.3](https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5/compare/v1.0.2...v1.0.3) (2024-09-17)
 
 
