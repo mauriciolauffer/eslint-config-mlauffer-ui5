@@ -26,16 +26,16 @@
     "sapui5"
   ],
   "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^3.0.0",
+    "eslint-config-mlauffer-nodejs": "^3.0.1",
     "eslint-plugin-no-unsanitized": "^4.1.2",
-    "globals": "^15.11.0"
+    "globals": "^15.13.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^0.5.5",
+    "@eslint/config-inspector": "^0.6.0",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^22.7.9",
-    "prettier": "^3.3.3",
-    "vitest": "^2.1.3"
+    "@types/node": "^22.10.2",
+    "prettier": "^3.4.2",
+    "vitest": "^2.1.8"
   },
   "engines": {
     "node": ">=18"
