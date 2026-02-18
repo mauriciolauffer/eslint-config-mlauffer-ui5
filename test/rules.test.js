@@ -20,15 +20,11 @@ describe("ESLint config", () => {
     const invalid = [
       {
         code: "node.insertAdjacentHTML('beforebegin', htmlString);",
-        errors: [
-          { message: "Unsafe call to node.insertAdjacentHTML for argument 1" },
-        ],
+        errors: [{ message: "Unsafe call to node.insertAdjacentHTML for argument 1" }],
       },
       {
         code: "node.insertAdjacentHTML('beforebegin', template.getHTML());",
-        errors: [
-          { message: "Unsafe call to node.insertAdjacentHTML for argument 1" },
-        ],
+        errors: [{ message: "Unsafe call to node.insertAdjacentHTML for argument 1" }],
       },
     ];
     tester.run("no-unsanitized/DOM/method", rule, { valid, invalid });
