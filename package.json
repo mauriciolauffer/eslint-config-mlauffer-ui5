@@ -1,51 +1,51 @@
 {
   "name": "eslint-config-mlauffer-ui5",
   "version": "2.1.0",
-  "description": "ESLint shareable config for UI5",
   "private": false,
-  "author": "Mauricio Lauffer",
-  "license": "MIT",
-  "type": "module",
-  "packageManager": "pnpm@9.12.2",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "lint": "prettier . --check --cache && eslint . --cache",
-    "lint:ci": "eslint . -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
-    "pretty": "prettier . --write --cache",
-    "test": "vitest run"
-  },
+  "description": "ESLint shareable config for UI5",
   "keywords": [
-    "eslint",
     "config",
+    "eslint",
     "javascript",
-    "ui5",
     "openui5",
-    "sapui5"
+    "sapui5",
+    "ui5"
   ],
-  "dependencies": {
-    "eslint-config-mlauffer-nodejs": "^3.1.0",
-    "eslint-plugin-no-unsanitized": "^4.1.2",
-    "globals": "^16.0.0"
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5.git/issues"
   },
-  "devDependencies": {
-    "@eslint/config-inspector": "^1.0.2",
-    "@types/eslint": "^9.6.1",
-    "@types/node": "^22.13.10",
-    "eslint": "^9.22.0",
-    "prettier": "^3.5.3",
-    "vitest": "^3.0.8"
-  },
-  "engines": {
-    "node": ">=18"
-  },
+  "license": "MIT",
+  "author": "Mauricio Lauffer",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5.git"
   },
-  "bugs": {
-    "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-ui5.git/issues"
-  }
+  "files": [
+    "lib"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "oxfmt --check && eslint . --cache",
+    "lint:ci": "eslint . -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "format": "oxfmt --write",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "eslint-config-mlauffer-nodejs": "^3.1.1",
+    "eslint-plugin-no-unsanitized": "^4.1.4",
+    "globals": "^17.3.0"
+  },
+  "devDependencies": {
+    "@eslint/config-inspector": "^1.4.2",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^24.10.13",
+    "eslint": "^9.39.2",
+    "oxfmt": "^0.33.0",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.30.0"
 }
