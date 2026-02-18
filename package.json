@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mlauffer-ui5",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": false,
   "description": "ESLint shareable config for UI5",
   "keywords": [
